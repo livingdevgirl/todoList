@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <section>
+      <form action="/" method="post">
+            <input name="todoItem" class="todoItem"/></input>
+            <!-- name does not change is not an attribute, you can call it in javascript to ref.  -->
+      </form>
+      <ul>
+        {{#data}}
+          <li>{{.}}</li>
+        {{/data}}
+      </ul>
+
+
+</section>
+  </body>
+</html>
